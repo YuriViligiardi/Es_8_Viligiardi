@@ -12,16 +12,15 @@
 
         switch ($grado) {
             case "a":
-                echo "<h2>L'" . $modello . " è perfetto, pari a nuovo</h2>"
+                echo "<h2>L'" . $modello . " è perfetto, pari a nuovo</h2>";
                 break;
             case "b":
-                echo "<h2>L'" . $modello . " è in ottime condizioni</h2>"
+                echo "<h2>L'" . $modello . " è in ottime condizioni</h2>";
                 break;
             default:
-                echo "<h2>L'" . $modello . " presenta graffi e/o segni di usura</h2>"
+                echo "<h2>L'" . $modello . " presenta graffi e/o segni di usura</h2>";
                 break;
         }
-    
     ?>
 </body>
 </html>
